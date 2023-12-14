@@ -36,7 +36,7 @@ app.get('/getSignature', (req, res) => {
     res.json({ generatedSignature });
 });
 
-const PORT = 3000; // Choose your desired port number
+const PORT = 80; // Choose your desired port number
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
