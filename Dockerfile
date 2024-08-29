@@ -16,4 +16,4 @@ COPY --from=build /usr/src/app/node_modules ./node_modules
 COPY . .
 
 # Specify the command to start your Node.js application
-CMD ["node", "app.js"]
+CMD ["npm", "run", "start"]
